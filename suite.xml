@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite" verbose="1">
+    <parameter name="string1" value="Hello"></parameter>
+    <parameter name="string2" value="Globant"></parameter>
+    <test name="D:/brian/Estudio/Test Automation/WebAutomation">
+        <classes>
+            <class name="com.globant.AppTest"> </class>
+        </classes>
+    </test>
+</suite>
