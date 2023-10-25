@@ -22,7 +22,7 @@ public class FirstTest {
         WebElement footerLink = driver.findElement(By.cssSelector(".footer-sidebar-text + div"));
         WebElement searchButton = driver.findElement(By.cssSelector("button[type=\"submit\"]"));
         searchInput.sendKeys("Microsoft");
-        Assert.assertEquals(footerLink.getText(),"Puedes apoyar nuestro trabajo con una donación","Error");
+        Assert.assertEquals(footerLink.getText(),"Puedes apoyar nuestro trabajo con una donación.","Error");
         Assert.assertTrue(searchButton.isDisplayed());
         List<WebElement> langList= driver.findElements(By.className("central-featured-lang"));
         Assert.assertEquals(langList.size(),10);
